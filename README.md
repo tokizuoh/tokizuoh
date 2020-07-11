@@ -5,4 +5,3 @@
 ## Interests
   
 - Competitive Programming
-- Rust
