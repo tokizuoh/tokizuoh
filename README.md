@@ -1,6 +1,6 @@
 # tokizo
   
-blog: http://tokozuoh.dev  
+http://tokozuoh.dev  
   
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tokizuoh&layout=compact)](https://github.com/anuraghazra/github-readme-stats)  
   
