@@ -1,11 +1,10 @@
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import storage
-
 import os
 import json
 import textwrap
-from dotenv import load_dotenv
+
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import storage
 
 DOWNLOAD_FILE_NAME = 'articles.json'
 GENERATE_FILE_NAME = 'README.md'
