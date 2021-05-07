@@ -11,5 +11,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FIREBASE_ACCESS_TOKEN: ${{ secrets.FIREBASE_ACCESS_TOKEN }}
+      STORAGE_BUCKET_URL: ${{ secrets.STORAGE_BUCKET_URL }}
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          architecture: 'x64'
+      - name: Setup Python and Execute
+      - run: python ./scripts/main.py
