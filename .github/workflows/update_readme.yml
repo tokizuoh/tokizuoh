@@ -20,5 +20,9 @@ jobs:
         with:
           python-version: '3.9'
           architecture: 'x64'
+      - name: Setup pip
+        uses: BSFishy/pip-action@v1
+        with:
+          packages: firebase_admin
       - name: Setup Python and Execute
         run: python ./scripts/main.py
