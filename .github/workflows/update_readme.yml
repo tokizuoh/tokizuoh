@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Update_README
 
 on:
   schedule:
@@ -25,4 +25,4 @@ jobs:
         with:
           packages: firebase_admin
       - name: Setup Python and Execute
-        run: echo $FIREBASE_ACCESS_TOKEN >> ./scripts/wr6yghttcx9.json && ls && python ./scripts/main.py
+        run: echo $FIREBASE_ACCESS_TOKEN >> ./scripts/wr6yghttcx9.json && ls ./scripts && python ./scripts/main.py
