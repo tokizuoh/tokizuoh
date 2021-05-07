@@ -21,4 +21,4 @@ jobs:
           python-version: '3.9'
           architecture: 'x64'
       - name: Setup Python and Execute
-      - run: python ./scripts/main.py
+        run: python ./scripts/main.py
