@@ -8,7 +8,7 @@ from firebase_admin import storage
 
 DOWNLOAD_FILE_NAME = 'articles.json'
 GENERATE_FILE_NAME = 'README.md'
-FIREBASE_ACCESS_TOKEN_FILE = 'wr6yghttcx9.json'
+FIREBASE_ACCESS_TOKEN_FILE = './wr6yghttcx9.json'
 
 
 def download_blob(bucket_name, source_blob_name, destination_file_name):
