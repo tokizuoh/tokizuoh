@@ -26,6 +26,6 @@ jobs:
           packages: firebase_admin
       - name: Setup Python and Execute
         run: |
-          echo $FIREBASE_ACCESS_TOKEN >> scripts/wr6yghttcx9.json
-          ls
+          echo $FIREBASE_ACCESS_TOKEN >> ./scripts/wr6yghttcx9.json
+          ls ./scripts
           python ./scripts/main.py
