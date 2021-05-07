@@ -6,6 +6,8 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import storage
 
+import subprocess
+
 DOWNLOAD_FILE_NAME = 'articles.json'
 GENERATE_FILE_NAME = 'README.md'
 FIREBASE_ACCESS_TOKEN_FILE = './wr6yghttcx9.json'
@@ -23,6 +25,9 @@ def download_blob(bucket_name, source_blob_name, destination_file_name):
 
     
 def main():
+    print("@@@@@@@@@@@")
+    res = subprocess.call('ls')
+    print("^^^^^^^^^^^")
     
     STORAGE_BUCKET_URL = os.environ.get("STORAGE_BUCKET_URL")
     
