@@ -16,6 +16,8 @@ jobs:
       STORAGE_BUCKET_URL: ${{ secrets.STORAGE_BUCKET_URL }}
     steps:
       - uses: actions/checkout@v2
+      - name: Setup wr6yghttcx9
+        run: echo $FIREBASE_ACCESS_TOKEN >> scripts/wr6yghttcx9.json
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
