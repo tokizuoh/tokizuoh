@@ -9,6 +9,8 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  set-access_token:
+    
   build:
     runs-on: ubuntu-latest
     env:
@@ -16,10 +18,6 @@ jobs:
       STORAGE_BUCKET_URL: ${{ secrets.STORAGE_BUCKET_URL }}
     steps:
       - uses: actions/checkout@v2
-      - name: Setup wr6yghttcx9
-        run: |
-          echo $FIREBASE_ACCESS_TOKEN >> scripts/wr6yghttcx9.json
-          ls scripts/
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
@@ -29,4 +27,6 @@ jobs:
         with:
           packages: firebase_admin
       - name: Setup Python and Execute
-        run: python ./scripts/main.py
+        run: |
+          echo $FIREBASE_ACCESS_TOKEN >> scripts/wr6yghttcx9.json
+          python ./scripts/main.py
