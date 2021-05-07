@@ -9,9 +9,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  set-access_token:
-    
-  build:
+  main:
     runs-on: ubuntu-latest
     env:
       FIREBASE_ACCESS_TOKEN: ${{ secrets.FIREBASE_ACCESS_TOKEN }}
