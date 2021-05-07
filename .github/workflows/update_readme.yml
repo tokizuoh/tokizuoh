@@ -20,13 +20,22 @@ jobs:
         with:
           python-version: '3.9'
           architecture: 'x64'
-      - name: Setup pip
+      - name: pip setting
         uses: BSFishy/pip-action@v1
         with:
           packages: firebase_admin
-      - name: Setup Python and Execute
+      - name: access-token setting & run python
         working-directory: scripts
         run: |
           echo $FIREBASE_ACCESS_TOKEN >> ./wr6yghttcx9.json
           python main.py
           mv README.md ./../README.md
+      - name: git setting
+        run: |
+          git config --local user.email tokizo819@gmail.com
+          git config --local user.name tokizuoh
+      - name: commit files
+        run: |
+          git add README.md
+          git commit -m 'update README.md'
+          git push origin master
