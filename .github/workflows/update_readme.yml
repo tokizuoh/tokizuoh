@@ -27,4 +27,5 @@ jobs:
       - name: Setup Python and Execute
         run: |
           echo $FIREBASE_ACCESS_TOKEN >> scripts/wr6yghttcx9.json
+          ls
           python ./scripts/main.py
