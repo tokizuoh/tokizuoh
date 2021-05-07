@@ -1,9 +1,10 @@
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import storage
+
+import os
 import json
 import textwrap
-import os
 from dotenv import load_dotenv
 
 DOWNLOAD_FILE_NAME = 'articles.json'
@@ -22,7 +23,11 @@ def download_blob(bucket_name, source_blob_name, destination_file_name):
 
     
 def main():
-    cred = credentials.Certificate(CREDENTIAL_FILE_PATH)
+    
+    STORAGE_BUCKET_URL = os.environ.get("STORAGE_BUCKET_URL")
+    FIREBASE_ACCESS_TOKEN = os.environ.get("FIREBASE_ACCESS_TOKEN")
+    
+    cred = credentials.Certificate(FIREBASE_ACCESS_TOKEN)
     firebase_admin.initialize_app(cred, {
         'storageBucket': storage
     })
