@@ -6,3 +6,5 @@
 ## In the development
 - [faaaar](https://github.com/tokizuoh/faaaar)
   - Learn GraphQL with THE IDOLM@STER SHINY COLORS.
+- [galanthus](https://github.com/tokizuoh/galanthus)
+  - https://www.oreilly.co.jp/books/9784873119038/
