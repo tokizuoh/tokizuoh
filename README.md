@@ -8,3 +8,5 @@
   - Learn GraphQL with THE IDOLM@STER SHINY COLORS.
 - [galanthus](https://github.com/tokizuoh/galanthus)
   - https://www.oreilly.co.jp/books/9784873119038/
+- [elpis](https://github.com/tokizuoh/elpis)
+  - A tool to randomly extract 3 stations in Japan.
