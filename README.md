@@ -6,5 +6,5 @@
 ## In the development
 - [faaaar](https://github.com/tokizuoh/faaaar)
   - Learn GraphQL with THE IDOLM@STER SHINY COLORS.
-- [elpis](https://github.com/tokizuoh/elpis)
-  - A tool to randomly extract 3 stations in Japan.
+- [dianthus2-db](https://github.com/tokizuoh/dianthus2-db)  
+  - Aggregate Japanese and its vowels into a DB
