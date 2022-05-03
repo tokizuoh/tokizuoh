@@ -1,4 +1,4 @@
-# about me
+## about me
 
-- iOS App Developer
+- job: iOS App Developer
 - like: Go
