@@ -1,3 +1,4 @@
-# tokizo
+# about me
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tokizuoh&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+- iOS App Developer
+- like: Go
