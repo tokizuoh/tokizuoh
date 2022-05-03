@@ -1,7 +1,7 @@
 ### about me
 
-- job:
+- job
   - iOS App Developer
 - like
   - Go
-  - GraphQL
+  - GraphQL 
