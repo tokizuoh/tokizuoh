@@ -8,6 +8,8 @@
 
 ### contribute
 
+<details><summary>Open</summary>
+
 - [mdn/translated-content #4934](https://github.com/mdn/translated-content/pull/4934)
   - fix typo
 - [mdn/translated-content #4995](https://github.com/mdn/translated-content/pull/4995)
@@ -16,3 +18,6 @@
   - remove unnecessary import statement
 - [yonaskolb/XcodeGen #928](https://github.com/yonaskolb/XcodeGen/pull/928)
   - remove unnecessary processes
+
+</details>
+
