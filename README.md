@@ -21,7 +21,7 @@
 
 </details>
 
-### 制作物
+### product
 
 <details><summary>Open</summary>
 
