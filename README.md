@@ -16,6 +16,8 @@
   - fix typo
 - [apple/swift #39786](https://github.com/apple/swift/pull/39786)
   - remove unnecessary import statement
+- [[SR-14472] Documentation Issue: collectionViewContentSize - Swift](https://bugs.swift.org/browse/SR-14472)
+  - fix typo
 - [yonaskolb/XcodeGen #928](https://github.com/yonaskolb/XcodeGen/pull/928)
   - remove unnecessary processes
 
