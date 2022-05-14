@@ -3,8 +3,7 @@
 - job
   - iOS App Developer
 - like
-  - Go
-  - GraphQL 
+  - SwiftUI
 
 ### contribute
 
