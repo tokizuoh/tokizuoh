@@ -5,7 +5,7 @@
 - like
   - SwiftUI
 
-### contribute
+### contribution
 
 <details><summary>Open</summary>
 
