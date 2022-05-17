@@ -25,8 +25,8 @@
 ### product
 
 <details><summary>Open</summary>
-
-- [同じ母音を持つ単語を一覧表示するサイト](https://tokizuoh.github.io/dianthus2-front-w15lc9bgtdbvze1y/)
+  
+- [同じ母音を持つ単語を返すAPI](https://tokizuoh.hatenablog.com/entry/2022/04/15/212905)
 - [競技プログラミングの問題をカテゴリー別で閲覧できるサイト](https://cp-categorize-beta.firebaseapp.com/)
 - [IPAファイルからビルドバージョンを一発で抽出するスクリプト](https://tokizuoh.dev/posts/nzi5ntfk0n2xufh9/)
 - [Watchdogを使ってtail -fを模倣するスクリプト](https://tokizuoh.dev/posts/npea4yraoxjvjrqz/)
