@@ -4,6 +4,8 @@
   - iOS App Developer
 - like
   - SwiftUI
+  - GraphQL
+  - CI/CD
 
 ### contribution
 
